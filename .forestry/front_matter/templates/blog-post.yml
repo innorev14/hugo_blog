@@ -21,3 +21,5 @@ fields:
 - type: list
   name: categories
   label: categories
+pages:
+- content/blog/jekyll-hexo-hugo-feat..md
