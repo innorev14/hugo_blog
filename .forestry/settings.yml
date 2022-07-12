@@ -25,7 +25,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: forestry/images
-public_path: https://s3.ap-northeast-2.amazonaws.com/media.innorev.site
+public_path: https://s3.ap-northeast-2.amazonaws.com/media.innorev.site/forestry/images
 front_matter_path: "/media"
 use_front_matter_path: true
 file_template: ":filename:"
