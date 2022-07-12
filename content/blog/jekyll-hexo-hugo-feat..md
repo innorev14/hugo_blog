@@ -1,7 +1,7 @@
 ---
-title: Jekyll, Hexo, Hugo (feat. 내가 휴고를 선택한 이유)
+title: Jekyll, Hexo, Gatsby, Hugo (feat. 내가 휴고를 선택한 이유)
 image: https://s3.ap-northeast-2.amazonaws.com/media.innorev.site/forestry/images/static_site_generator.png
-date: 2021-01-24T18:19:25.000+06:00
+date: 2021-01-24T21:19:25+09:00
 author: Lubana Era
 tags:
 - Photography
