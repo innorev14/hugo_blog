@@ -8,7 +8,7 @@ sections:
   path: assets/images
   label: Logo
   create: all
-  match: "**/logo.png"
+  match: "**/*"
 - type: directory
   path: content
   label: Pages
