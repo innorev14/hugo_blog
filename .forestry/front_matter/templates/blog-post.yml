@@ -29,16 +29,3 @@ fields:
   type: tag_list
   default: []
   label: tags
-- name: draft
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - 'true'
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: draft
