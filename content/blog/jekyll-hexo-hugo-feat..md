@@ -2,7 +2,7 @@
 title: Jekyll, Hexo, Gatsby, Hugo (feat. 내가 휴고를 선택한 이유)
 image: https://s3.ap-northeast-2.amazonaws.com/media.innorev.site/forestry/images/static_site_generator.png
 date: 2022-07-12T20:19:25+09:00
-author: Peter
+author: '"Peter"'
 tags:
 - blog
 categories:
