@@ -15,8 +15,9 @@ fields:
   name: author
   label: author
   default: Peter
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
 - type: list
   name: categories
