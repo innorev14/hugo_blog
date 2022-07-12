@@ -1,4 +1,44 @@
 ---
 label: Blog post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: image
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: yyyy/mm/dd
+    time_format: 
+    display_utc: false
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: draft
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - 'true'
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: draft
