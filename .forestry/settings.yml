@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: asset/images
+  path: assets/images
   label: Logo
   create: all
   match: "**/logo.png"
