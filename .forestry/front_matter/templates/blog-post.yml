@@ -14,13 +14,14 @@ fields:
 - type: text
   name: author
   label: author
-  default: Peter
+  default: '"Peter"'
 - name: tags
   type: tag_list
   default: []
   label: tags
-- type: list
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: categories
 pages:
 - content/blog/jekyll-hexo-hugo-feat..md
