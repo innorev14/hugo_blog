@@ -23,5 +23,17 @@ fields:
   type: tag_list
   default: []
   label: categories
+- name: authors
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: author
+      file: 
+      path: 
+  label: authors
 pages:
 - content/blog/jekyll-hexo-hugo-feat..md
