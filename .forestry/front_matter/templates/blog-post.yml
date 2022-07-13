@@ -11,21 +11,9 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: author
-  label: author
-  default: '"Peter"'
-- name: tags
-  type: tag_list
-  default: []
-  label: tags
-- name: categories
-  type: tag_list
-  default: []
-  label: categories
-- name: authors
+- name: author
   type: select
-  default: []
+  default: author/lubana-era.md
   config:
     required: false
     options: []
@@ -34,6 +22,14 @@ fields:
       section: author
       file: 
       path: 
-  label: authors
+  label: author
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 pages:
 - content/blog/jekyll-hexo-hugo-feat..md
